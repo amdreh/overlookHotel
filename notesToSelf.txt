@@ -1,0 +1,24 @@
+<header>
+Título: The Overlook Hotel
+Subtítulo: Sua familia jamais esquecerá
+Menu: Sobre o estabelecimento, Depoimentos, Formulário de contato
+
+<body>
+Seção 1 (lado a lado): 
+-Foto
+-Subtítulo: Venha para o Overlook Hotel; Texto de dois parágrafos
+Seção 2: 
+Cada depoimento é:
+Texto
+Estrelas
+Foto - Nome
+Seção 3
+Formulário
+Nome: 
+Endereço: 
+Possui poderes psíquicos: Sim ou não
+Coisa da qual você mais tem medo
+Botão enviar
+
+<footer>
+Linha da cor do cabeçalho escrito "Overlook Hotel - July 4th Ball - 1921"
