@@ -77,8 +77,8 @@
                     <span class="fa fa-star checked"></span>                    
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
-
-                    "Aquele hotel marcou minha infância. Até hoje sempre que fecho os olhos é como se eu ainda pudesse ver." (Danny Torrance)
+                    <p class="testimonialText">"Aquele hotel marcou minha infância. Até hoje sempre que fecho os olhos é como se eu ainda pudesse ver."</p>
+                    <p class="testimonialUser">(Danny Torrance)</p>
                 </li>
                 <li>
                     <span class="fa fa-star checked"></span>
@@ -87,7 +87,7 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star"></span>
 
-                    "É um ótimo lugar para se isolar com a família durante o inverno e escrever uma peça teatral. O que poderia dar errado?" (Jack Torrance)
+                    <p>"Um ótimo lugar para se isolar com a família durante o inverno e escrever uma peça teatral. O que poderia dar errado?" (Jack Torrance)</p>
                 </li>
                 <li>
                     <span class="fa fa-star checked"></span>
@@ -96,7 +96,7 @@
                     <span class="fa fa-star"></span>
                     <span class="fa fa-star"></span>
 
-                    "Eu me hospedei no quarto 237 e não recomendo." (André Garcia)
+                    <p>"Eu me hospedei no quarto 237 e não recomendo." (André Garcia)</p>
                 </li>
                 <li>
                     <span class="fa fa-star checked"></span>
@@ -105,7 +105,7 @@
                     <span class="fa fa-star"></span>
                     <span class="fa fa-star"></span>
 
-                    "Stanley Kubrick estragou o meu livro, o remake de 1997 é melhor." (Stephen King)
+                    <p>"Stanley Kubrick estragou o meu livro, o remake de 1997 é melhor." (Stephen King)</p>
                 </li>
             </ul>
         </div>
@@ -115,14 +115,35 @@
     <!-- CONTATO -->
     
     <section>
+        <h2>Contato</h2>
+        <div class="container">
+            <form>
+                <label for="name">Nome: </label><input name="name" id="name" type="text" placeholder="Digite seu nome" required>*
+                <label for="email">E-mail: </label><input type="email" placeholder="Digite seu e-mail" required>*
+                <label for="phone">Telefone: </label><input name="phone" id="phone" type="tel" placeholder="Digite seu telefone">
+                <label for="powers">Possui poderes psíquicos? </label>
+                <select name="powers" id="powers">
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+                <label for="fears">Medo mais profundo: </label>
+                <textarea name="fears" id="fears"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
 
     </section>
     
     <!-- RODAPÉ -->
    
-    <section>
-
-    </section>
+    <footer>
+        <div class="container">
+            <p>
+                All work and no play makes Jack a dull boy
+            </p>
+        </div>
+    </footer>
 
 </body>
 </html>
