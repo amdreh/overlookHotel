@@ -3,3 +3,60 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
+    display: inline;
+}
+
+header {
+    padding: 25px 25px ;
+    background-color: black;
+}
+
+header h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color:white
+}
+
+header h6 {
+    font-family: Helvetica, arial, sans-serif;
+    font-size: 25px;
+    font-weight:100;
+    color:red
+}
+
+header li a {
+    text-decoration: none;
+    color:gainsboro
+}
+
+header ul {
+    display: block;
+    list-style-type: none;
+}
+
+header ul li{
+    margin-left: 25px;
+    display: inline;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+}
+
+#about {
+    margin-top: 16px;
+    display: flex;
+}
