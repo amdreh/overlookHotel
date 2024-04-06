@@ -118,83 +118,43 @@ main .container {
     margin-top: 20px;
 }
 
+#contactForm {
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 30px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 
-
-
-
-
-
-
-
-/*
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
-.container {
-    max-width: 80%;
-    width: 100%;
-    margin: 0 auto;
+form input,
+form textarea,
+form button,
+form select{
+    display:block;
+    width: 256px;
+    margin-bottom: 20px;
+    padding: 8px;
+    
 }
 
-header {
-    padding: 25px 25px ;
+form textarea {
+    resize: none;
+    height: 138px;
+}
+
+form select {
+    width: 70px;
+}
+
+form button:hover {
+    background-color: rgba(0, 0, 0, 0.138);
+    cursor: pointer;
+
+}
+
+#contact .container {
     background-color: black;
-    display: flex;
 }
-
-header .container,
-section .container {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-}
-
-header h1 {
-    font-family: "Abril Fatface", serif;
-    font-size: 50px;
-    color:white
-}
-
-header h6 {
-    font-family: "Baskerville";
-    font-size: 20px;
-    font-weight:bold;
-    color:red
-     
-}
-
-header nav li a {
-    text-decoration: none;
-    color: white;
-    font-family: Helvetica, arial, sans-serif;
-    display: inline;
-
-}
-
-.menu nav ul li{
-    display: inline;
-    justify-content:center;
-}
-
-
-
-#about {
-    margin-top: 16px;
-    display: flex;
-}
-
-#about p{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
-h2 {
-    font-family: Baskerville;
-}
-
-p {
-}
-*/
