@@ -44,7 +44,9 @@ h2 {
 
 .testimonialsList {
     background-color: rgb(128, 128, 128, 0.1);
-    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .testimonialsList p {
@@ -57,12 +59,16 @@ h2 {
     margin-top: 10px;
 }
 
-.testimonialsList img {
-    max-width: 100px;
+.testimonialUser {
+    font-weight: 600;
 }
 
-.testimonialsList span {
-    background-color: black
+.testimonialText {
+    font-size: large;
+}
+
+.testimonialsList img {
+    max-width: 100px;
 }
 
 #testimonialsHeader {
