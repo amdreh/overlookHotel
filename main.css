@@ -6,9 +6,7 @@
 
 .container,
 .navbar,
-main,
-h2,
-p {
+main {
     max-width: 80%;
     width: 100%;
     margin: 0 auto;
@@ -42,6 +40,34 @@ h2 {
 
 #subtitle {
     color: red;
+}
+
+.testimonialsList {
+    background-color: rgb(128, 128, 128, 0.1);
+    display: block;
+}
+
+.testimonialsList p {
+    margin: 0 px;
+}
+
+.testimonialsList li {
+    padding: 10px;
+    margin-inline: 10px;
+    margin-top: 10px;
+}
+
+.testimonialsList img {
+    max-width: 100px;
+}
+
+.testimonialsList span {
+    background-color: black
+}
+
+#testimonialsHeader {
+    background-color;
+    display: block;
 }
 
 .navbar ul {
@@ -82,7 +108,9 @@ main .container {
     display:inline-block;
 }
 
-
+#about p {
+    margin-top: 20px;
+}
 
 
 
