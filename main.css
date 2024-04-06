@@ -4,59 +4,163 @@
     box-sizing: border-box;
 }
 
+.container,
+.navbar,
+main,
+h2,
+p {
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main img {
+    width: 100%;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header .container {
+    background-color: black;
+    padding: 18px;
+    display: flex;
+    justify-content:space-evenly;
+
+}
+
+h1 {
+    color:white
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 22px;
+}
+
+#subtitle {
+    color: red;
+}
+
+.navbar ul {
+    background-color: brown;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden; /* Auxilia a .navbar li */
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    font-weight: bold;
+} 
+
+/* Para tornar a navbar horizontal */
+
+.navbar li {
+    float: left;
+    width: auto;
+
+} 
+
+main .container {
+    display: inline;
+}
+
+.formContact {
+    display:inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container {
     max-width: 80%;
     width: 100%;
     margin: 0 auto;
-    display: inline;
 }
 
 header {
     padding: 25px 25px ;
     background-color: black;
+    display: flex;
 }
 
-header h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+header .container,
+section .container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+header h1 {
+    font-family: "Abril Fatface", serif;
     font-size: 50px;
-    font-weight: bolder;
     color:white
 }
 
 header h6 {
-    font-family: Helvetica, arial, sans-serif;
-    font-size: 25px;
-    font-weight:100;
+    font-family: "Baskerville";
+    font-size: 20px;
+    font-weight:bold;
     color:red
+     
 }
 
-header li a {
+header nav li a {
     text-decoration: none;
-    color:gainsboro
-}
-
-header ul {
-    display: block;
-    list-style-type: none;
-}
-
-header ul li{
-    margin-left: 25px;
+    color: white;
+    font-family: Helvetica, arial, sans-serif;
     display: inline;
+
 }
 
-header .container {
-    display: flex;
-    justify-content: space-between;
-    
+.menu nav ul li{
+    display: inline;
+    justify-content:center;
 }
 
-header .menu {
-    display: flex;
-    align-items: center;
-}
+
 
 #about {
     margin-top: 16px;
     display: flex;
 }
+
+#about p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h2 {
+    font-family: Baskerville;
+}
+
+p {
+}
+*/

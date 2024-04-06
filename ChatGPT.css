@@ -1,0 +1,123 @@
+/* 
+   Este é um arquivo CSS básico para estilizar o HTML fornecido.
+   Os comentários explicam as partes importantes do código.
+*/
+
+/* 
+   Reset de margens e preenchimentos para garantir consistência entre navegadores.
+   Isso elimina os espaços extras ao redor dos elementos.
+*/
+body, h1, h2, h3, p, ul, li, figure, figcaption, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo a largura máxima e centralizando o conteúdo */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Estilizando o título do cabeçalho */
+header h1 {
+    font-size: 2em;
+}
+
+/* Estilizando o menu de navegação */
+.menu {
+    background-color: #444;
+    padding: 10px 0;
+}
+
+.menu nav ul {
+    list-style-type: none;
+}
+
+.menu nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilizando a seção "Venha nos visitar" */
+#about {
+    padding: 40px 0;
+}
+
+.aboutText {
+    margin-top: 20px;
+}
+
+/* Estilizando a seção de depoimentos */
+#testimonials {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+#testimonials h2 {
+    text-align: center;
+}
+
+.testimonialText {
+    margin-top: 10px;
+}
+
+.testimonialUser {
+    font-style: italic;
+}
+
+/* Estilizando a seção de contato */
+section form {
+    margin-top: 20px;
+}
+
+section form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+section form input,
+section form select,
+section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+section form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section form button:hover {
+    background-color: #555;
+}
+
+/* Estilizando o rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Fim do arquivo CSS básico */
