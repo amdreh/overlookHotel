@@ -7,8 +7,10 @@
 .container,
 .navbar,
 main,
-footer {
+footer,
+#redrum {
     max-width: 666px;
+    background-color: whitesmoke;
     width: 100%;
     margin: 0 auto;
 }
@@ -31,7 +33,9 @@ header .container {
 }
 
 h1 {
+    font-family: "Abril Fatface";
     color:white;
+    font-weight: normal;
     font-size: 66.6px;
     
 }
@@ -39,15 +43,21 @@ h1 {
 h2 {
     margin-top: 50px;
     margin-bottom: 22px;
+    background-color: brown;
+    color: white;
+    padding: 10px;
 }
 
 #subtitle {
     color: red;
+    font-family: "Baskerville";
+    font-style: oblique;
     text-align: center;
+    font-size: large;
 }
 
 .testimonialsList {
-    background-color: rgb(128, 128, 128, 0.1);
+    background-color: rgba(128, 128, 128, 0.1);
     width: 51.38%;
     /* margin-left: auto;
     margin-right: auto; */
@@ -55,6 +65,7 @@ h2 {
 
 .testimonialsList p {
     margin: 0 px;
+    
 }
 
 .testimonialsList li {
@@ -118,18 +129,22 @@ main .container {
     display:inline-block;
 }
 
-#about p {
+#about p,
+#openingTestimonials,
+#contact p,
+footer .container {
     margin-top: 20px;
-}
+    font-family: Helvetica, sans-serif
+} 
 
 #contactForm {
-    border: 2px solid whitesmoke;
+    border: 2px solid rgba(128, 128, 128, 0.1);
     border-radius: 5px;
     padding: 20px;
     margin-top: 30px;
+    margin-bottom: ;
     width: fit-content;
-    /* margin-left: auto;
-    margin-right: auto; */
+    background-color: rgba(128, 128, 128, 0.2;)
 
 }
 
@@ -159,10 +174,20 @@ form button:hover {
 
 }
 
-footer {
+footer div{
     background-color: black;
     color: red;
-    margin-top: 138px;
     text-align: center;
     font-size: small;
+    
+}
+
+/* Texto secreto (agora não mais tão secreto assim)
+#redrum {
+text-align: center;
+color:whitesmoke;
+background-color: whitesmoke;
+max-width: 666px;
+width: 100%;
+
 }
