@@ -137,13 +137,11 @@ footer .container {
 } 
 
 #contactForm {
-    border: 2px solid rgba(128, 128, 128, 0.1);
+    border: 2px solid white;
     border-radius: 5px;
     padding: 30px;
-    margin-top: 30px;
     width: fit-content;
-    background-color: rgba(128, 128, 128, 0.2;)
-
+    background-color: rgba(128, 128, 128, 0.1);
 }
 
 form input,
@@ -190,4 +188,8 @@ footer div{
 #contact {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+#openingTestimonials {
+    padding-bottom: 10px;
 }
