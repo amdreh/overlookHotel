@@ -1,27 +1,8 @@
-<header>
-Título: The Overlook Hotel
-Subtítulo: Sua familia jamais esquecerá
-Menu: Sobre o estabelecimento, Depoimentos, Formulário de contato
+// Suponha que você tenha uma imagem com o id 'minhaImagem'
+var minhaImagem = document.getElementById('minhaImagem');
 
-<body>
-Seção 1 (lado a lado): 
--Foto
--Subtítulo: Venha para o Overlook Hotel; Texto de dois parágrafos
-Seção 2: 
-Cada depoimento é:
-Texto
-Estrelas
-Foto - Nome
-Seção 3
-Formulário
-Nome: 
-Endereço: 
-Possui poderes psíquicos: Sim ou não
-Coisa da qual você mais tem medo
-Botão enviar
+// Novo caminho da imagem
+var novoSrc = 'caminho/para/sua/nova/imagem.jpg'; // Substitua pelo caminho da sua nova imagem
 
-<footer>
-Linha da cor do cabeçalho escrito "Overlook Hotel - July 4th Ball - 1921"
-
-
-
+// Altera o atributo src da imagem
+minhaImagem.src = novoSrc;

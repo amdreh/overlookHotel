@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
             document.body.style.backgroundColor= 'black';
             evilSubtitle();
             evilText();
+            evilPics();
+            evilFootText();
         } else {location.reload();}
     });
 });
@@ -21,4 +23,17 @@ function evilText() {
 
     firstP.innerText = "ll boy all work and no play makes Jack a dull boy all work and no play makes Jack a dull boy all work and no play makes Jack a dull boy all work and no play makes Jack a dull boy all work and no play makes Jack a dull boy all work and no play makes Jack a dull boy all work and no play makes Jack a dull boy all work and no play makes Jack a dull boy all work and no play makes Jack a dull boy all work and no play makes Jack a dull boy all work and no play makes Jack a dull boy all work and no play makes Jack a dull boy ";
     secondP.innerText = "and no play makes Jack a dull boy all work and no play makes Jack a dull boy all work and no play makes Jack a dull boy all work and no play makes Jack a dull boy all work and no play makes Jack a dull boy all work and no play makes Jack a dull boy ";
+}
+
+function evilPics() {
+    document.getElementById('dannyTorrance').src = './images/evilDannyTorrance.jpeg';
+    document.getElementById('jackTorrance').src = './images/evilJackTorrance.jpeg';
+    document.getElementById('andreGarcia').src = './images/evilAndreGarcia.png';
+    document.getElementById('stephenKing').src = './images/evilStephenKing.jpeg';
+    document.getElementById('overlookHotel').src = './images/goodOverlookHotel.png';
+}
+
+function evilFootText() {
+    const footText = document.getElementById('footText');
+    footText.innerText = "redrumREDRUMredrum";
 }
