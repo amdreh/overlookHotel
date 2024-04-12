@@ -183,6 +183,10 @@ footer div{
     padding-bottom: 30px;
 }
 
+#contact {
+    padding-bottom: 30px;
+}
+
 #firstP,
 #secondP,
 #openingTestimonials,
@@ -194,3 +198,4 @@ footer div{
 #openingTestimonials {
     padding-bottom: 10px;
 }
+
