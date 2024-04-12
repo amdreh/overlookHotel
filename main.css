@@ -58,8 +58,8 @@ h2 {
 .testimonialsList {
     background-color: rgba(128, 128, 128, 0.1);
     width: 51.38%;
-    /* margin-left: auto;
-    margin-right: auto; */
+    border: 2px solid white;
+    margin-left: 5px;
 }
 
 .testimonialsList p {
@@ -142,6 +142,7 @@ footer .container {
     padding: 30px;
     width: fit-content;
     background-color: rgba(128, 128, 128, 0.1);
+    margin-left: -15px;
 }
 
 form input,
