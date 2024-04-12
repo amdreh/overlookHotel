@@ -180,10 +180,14 @@ footer div{
     
 }
 
-body {
-    margin-bottom: 30px;
-}
-
 #contact {
     padding-bottom: 30px;
+}
+
+#firstP,
+#secondP,
+#openingTestimonials,
+#contact {
+    margin-left: 20px;
+    margin-right: 20px;
 }
