@@ -7,8 +7,7 @@
 .container,
 .navbar,
 main,
-footer,
-#gambiarra {
+footer {
     max-width: 666px;
     background-color: whitesmoke;
     width: 100%;
@@ -140,9 +139,8 @@ footer .container {
 #contactForm {
     border: 2px solid rgba(128, 128, 128, 0.1);
     border-radius: 5px;
-    padding: 20px;
+    padding: 30px;
     margin-top: 30px;
-    margin-bottom: ;
     width: fit-content;
     background-color: rgba(128, 128, 128, 0.2;)
 
@@ -182,11 +180,10 @@ footer div{
     
 }
 
-#gambiarra {
-text-align: center;
-color:whitesmoke;
-background-color: whitesmoke;
-max-width: 666px;
-width: 100%;
+body {
+    margin-bottom: 30px;
+}
 
+#contact {
+    padding-bottom: 30px;
 }
