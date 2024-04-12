@@ -7,8 +7,7 @@
 .container,
 .navbar,
 main,
-footer,
-#gambiarra {
+footer {
     max-width: 666px;
     background-color: whitesmoke;
     width: 100%;
@@ -59,8 +58,8 @@ h2 {
 .testimonialsList {
     background-color: rgba(128, 128, 128, 0.1);
     width: 51.38%;
-    /* margin-left: auto;
-    margin-right: auto; */
+    border: 2px solid white;
+    margin-left: 5px;
 }
 
 .testimonialsList p {
@@ -138,14 +137,12 @@ footer .container {
 } 
 
 #contactForm {
-    border: 2px solid rgba(128, 128, 128, 0.1);
+    border: 2px solid white;
     border-radius: 5px;
-    padding: 20px;
-    margin-top: 30px;
-    margin-bottom: ;
+    padding: 30px;
     width: fit-content;
-    background-color: rgba(128, 128, 128, 0.2;)
-
+    background-color: rgba(128, 128, 128, 0.1);
+    margin-left: -15px;
 }
 
 form input,
@@ -182,11 +179,18 @@ footer div{
     
 }
 
-#gambiarra {
-text-align: center;
-color:whitesmoke;
-background-color: whitesmoke;
-max-width: 666px;
-width: 100%;
+#contact {
+    padding-bottom: 30px;
+}
 
+#firstP,
+#secondP,
+#openingTestimonials,
+#contact {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#openingTestimonials {
+    padding-bottom: 10px;
 }
