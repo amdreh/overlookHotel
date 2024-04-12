@@ -179,14 +179,14 @@ footer div{
     
 }
 
-#contact {
+#contactText {
     padding-bottom: 30px;
 }
 
 #firstP,
 #secondP,
 #openingTestimonials,
-#contact {
+#contactText {
     margin-left: 20px;
     margin-right: 20px;
 }
