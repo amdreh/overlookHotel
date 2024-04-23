@@ -140,6 +140,11 @@
                 <h2>Contato</h2>
                 <p id="contactText">Preencha o formulário abaixo e aguarde nosso contato para marcar uma visita:</p>
                 <div>
+                    <!--
+        , CPF, endereço completo e CEP;
+Utilize o plugin jQuery Mask Plugin para aplicar máscara aos campos CPF, telefone e CEP;
+
+                    -->
                     <form id="contactForm">
                         <div>
                             <label for="name">Nome: </label>
@@ -153,9 +158,12 @@
 
                         <div>
                             <label for="phone">Telefone: </label>
-                            <input name="phone" id="phone" type="tel" placeholder="Digite seu telefone">
+                            <input name="phone" id="phone" type="tel" placeholder="Digite seu telefone" required>
                         </div>
-                        
+                        <div>
+                            <label for="cpf">CPF: </label>
+                            <input name="cpf" id="cpf" type="text" placeholder="Digite seu CPF" required>
+                        </div>
                         <div>
                             <label for="powers">Possui poderes psíquicos? </label>
                             <select name="powers" id="powers">
@@ -165,11 +173,33 @@
                         </div>
 
                         <div>
-                            <label for="fears">Medo mais profundo: </label>
+                            <label for="cep">CEP: </label>
+                            <input name="cep" id="cep" type="text" placeholder="Digite seu CEP" required>
                         </div>
-                        <div>
                         
-                            <textarea name="fears" id="fears"></textarea>
+                        <div>
+                            <label for="rua">Rua: </label>
+                            <input name="rua" id="rua" type="text" readonly>
+                        </div>
+
+                        <div>
+                            <label for="num">Número: </label>
+                            <input name="num" id="num" type="text" placeholder="Digite o nº" required>
+                        </div>
+                        
+                        <div>
+                            <label for="bairro">Bairro: </label>
+                            <input name="bairro" id="bairro" type="text" readonly>
+                        </div>
+                        
+                        <div>
+                            <label for="cidade">Cidade: </label>
+                            <input name="cidade" id="cidade" type="text" readonly>
+                        </div>
+                        
+                        <div>
+                            <label for="uf">Estado: </label>
+                            <input name="uf" id="uf" type="text" readonly>
                         </div>
 
                         <button type="submit">Enviar</button>
@@ -188,9 +218,9 @@
         </div>
     </footer>
 
-    <script src="index.js">
-
-    </script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="/js/jquery.mask.min.js"></script>
+    <script src="index.js"></script>
 
 </body>
 </html>

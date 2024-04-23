@@ -1,8 +1,0 @@
-// Suponha que você tenha uma imagem com o id 'minhaImagem'
-var minhaImagem = document.getElementById('minhaImagem');
-
-// Novo caminho da imagem
-var novoSrc = 'caminho/para/sua/nova/imagem.jpg'; // Substitua pelo caminho da sua nova imagem
-
-// Altera o atributo src da imagem
-minhaImagem.src = novoSrc;

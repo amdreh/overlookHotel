@@ -199,3 +199,33 @@ footer div{
     padding-bottom: 10px;
 }
 
+#cep {
+    width: 50%;
+}
+
+#num {
+    width: 33%;
+}
+
+#bairro,
+#cidade {
+    width: 75%;
+}
+
+#uf {
+    width: 25%;
+}
+
+#rua:focus, 
+#bairro:focus,
+#cidade:focus,
+#estado:focus {
+    outline: none;
+}
+
+#rua, 
+#bairro,
+#cidade,
+#estado {
+    cursor: default;
+}
